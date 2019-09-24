@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-tryout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc --noEmit && jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@actions/core": "^1.1.1",
+    "@actions/github": "^1.1.0",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5"
+  }
+}
